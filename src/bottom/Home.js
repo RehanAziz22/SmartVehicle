@@ -10,7 +10,7 @@ const Home = ({ navigation }) => {
   return (
     <View style={[CStyles.positionRelative, { flex: 1, justifyContent: "center", alignItems: "center" }]}>
       
-      <View style={[CStyles.positionAbsolute, CStyles.w95,CStyles.p1, CStyles.h35, CStyles.rounded, CStyles.bgWhite, { zIndex: 1, bottom: 0 }]}>
+      <View style={[CStyles.positionAbsolute,CStyles.justifyContentCenter, CStyles.w100,CStyles.p1, CStyles.h30, CStyles.rounded, CStyles.bgWhite, { zIndex: 1, bottom: 0 }]}>
       
         <View style={[CStyles.flexRow,CStyles.justifyContentAround,CStyles.my1]}>
           <TouchableOpacity onPress={() => navigation.navigate("Outofrange")} style={[CStyles.flexRow, CStyles.w45, CStyles.AppBg1, CStyles.p2, CStyles.rounded, CStyles.alignItemsCenter,]}>
